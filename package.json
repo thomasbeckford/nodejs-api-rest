@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-creating-restful-apis",
+  "name": "nodejs-api-rest",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,7 +7,7 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Thomas",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
