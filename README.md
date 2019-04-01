@@ -1,21 +1,22 @@
-# nodejs-restful-api
-![RESTful API design with Node.js](https://cdn-images-1.medium.com/max/2000/1*jjYC9tuf4C3HkHCP5PcKTA.jpeg "RESTful API design with Node.js")
+# Restfull Crud API with NodeJS and MongoDB.
 
-How to create a RESTful CRUD API using Nodejs?
+##Requeriments:
+### Node
+### Npm
+### MongoDB
 
-This tutorial will demo how to set up a bare bones 
-API using mongodb as the database.
 
-It consist of a User model and controller. The model
-defines the data, and the controller will contain all 
-the business logic needed to interact with the database. 
+1. git clone
 
-It has a db file which will be used to
-connect the app to the database, and an app file used
-for bootstrapping the application itself.
+2. cd /
 
-The server file is used to spin up the server and tells the
-app to listen on a specific port.
+3. npm install
 
-Full tutorial can be found at:
-https://hackernoon.com/restful-api-design-with-node-js-26ccf66eab09#.s5l66zyeu
+4. Create mongodb database name:
+	api -> IMPORTANT
+
+5. npm start
+
+6. go to localhost:3000
+
+7. Try!

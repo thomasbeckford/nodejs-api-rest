@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+<head>
+</head>
+<body style="margin: 0 auto;border: 50px solid green;padding:30px;">
+<h1>Node API Restfull</h1>
+
+<div>
+
+  <div>
+   <ul>
+    <li><a href="/users">Get all users</a></li>
+    <li><a href="/products">Get all products</a></li>
+   <ul>
+  </div>
+
+<div>
+ <ul>
+  <li><a href="/newuser">New user</a></li>
+  <li><a href="/newproduct">New product</a></li>
+ <ul>
+</div>
+
+
+<h3>Developing frontend</h3>
+
+<div><p>Find user by id. GET -> /users/:id </p>
+  <pre>
+      
+      1. Get the id.
+      2. Do the ajax.
+
+    $.ajax({
+        url: 'http://localhost:3000/users/:id',
+        type: 'GET'
+        success: function(user){
+            alert(user);
+        }
+    })
+  </pre>
+</div>
+<div><p>Delete user by id. DELETE -> /users/:id </p>
+    <pre>
+
+      1. Get the id.
+      2. Do the ajax.
+
+    $.ajax({
+        url: 'http://localhost:3000/users/:id',
+        type: 'DELETE'
+        success: function(data){
+            alert("Deleted " + data);
+        }
+    })
+  </pre>
+</div>
+<div><p>Update user by id. PUT -> /users/:id </p>
+    <pre>
+
+      1. Get the id.
+      2. Do the ajax.
+
+    $.ajax({
+        url: 'http://localhost:3000/users/:id',
+        type: 'PUT',
+        data: {
+          name,
+          email,
+          password
+        }
+        success: function(data){
+            alert("Updated " + data);
+        }
+    })
+  </pre></div>
+
+  <h3>Or try with postman...</h3>
+
+</div>
+</body>
+
+</html>
